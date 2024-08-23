@@ -9,14 +9,10 @@ import { Link } from "react-router-dom";
 export default  function DTO (params) {
 
 
-<<<<<<< HEAD
     const { updateOrderStatus ,setexceldata,setsingleorderid} = useContext(DataContext);
-=======
   const apiKey = "https://backenddata77720.onrender.com"
 
     
-    const { updateOrderStatus ,setexceldata,userrole} = useContext(DataContext);
->>>>>>> 706b6992e25965e3bf1b9cd68d6a285071e5dfc8
     const [selectedStatus, setSelectedStatus] = useState('');
     const [id, setid] = useState('');
     const [showpopup, setshowpopup] = useState(false);

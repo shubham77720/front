@@ -19,12 +19,8 @@ export default function Searchitems(params) {
   useEffect(() => {
     getOrderMasterSearch( currentPage)
   }, [date,searcheddata]);
-<<<<<<< HEAD
-  const apiKey = "https:/backenddata77720.onrender.com";
-=======
-  const apiKey = "https://backenddata77720.onrender.com"
->>>>>>> 706b6992e25965e3bf1b9cd68d6a285071e5dfc8
-  const Previous = () => {
+    const apiKey = "https://backenddata77720.onrender.com"
+   const Previous = () => {
     if (currentPage > 1) {
       setCurrentPage((prevPage) => {
         const newPage = prevPage - 1;

@@ -2,12 +2,8 @@ import axios from 'axios';
 import { useState } from 'react';
 
 export default  function Createsupplier (params) {
-<<<<<<< HEAD
-  const apiKey = "https:/backenddata77720.onrender.com";
-=======
-  const apiKey = "https://backenddata77720.onrender.com"
->>>>>>> 706b6992e25965e3bf1b9cd68d6a285071e5dfc8
-
+   const apiKey = "https://backenddata77720.onrender.com"
+ 
 
     const [productdata, setproductdata] = useState({name:"",GSTIN:"",mobile:"",addresh:"",Cost:""})
 

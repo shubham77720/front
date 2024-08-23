@@ -25,7 +25,6 @@ export default  function DTO (params) {
     const [totalOrder, settotalOrder] = useState("");
    const [hasMore, setHasMore] = useState(true); // To track if there are more items to load
     let [productdata, setproductdata] = useState({   billno:"", billdate:"", LRNO:"" ,shippingcharges:"" ,Trackingid:"" ,Courier:"",   Deliverybydate:"",Retrunstatus:"",Condition:""})
-    const apiKey = "https:/backenddata77720.onrender.com";
 
     useEffect(() => {
       Fetchproduct(currentPage);

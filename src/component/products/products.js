@@ -77,7 +77,7 @@ const numclick = (number) => {
 const fetchproduct = async (page) => {
  let token = localStorage.getItem('token')
   try {
-    const response = await axios.get(`${apiKey}/api/product/fetchproductforadmin/${page}`,{method: 'GET',
+    const response = await axios.get(`"https:/backenddata77720.onrender.com/api/product/fetchproductforadmin/${page}`,{method: 'GET',
       headers:{
            
           'authtoken': token
